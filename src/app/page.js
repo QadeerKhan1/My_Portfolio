@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import ProjectSection from "./components/ProjectSection";
+import VerticalCarousalSection from "./components/VerticalCarousalSection";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -41,6 +42,7 @@ export default function Home() {
           <HeroSection />
           <AboutSection />
           <ProjectSection />
+          <VerticalCarousalSection darkMode={darkMode} />
           <EmailSection />
         </div>
         <Footer />

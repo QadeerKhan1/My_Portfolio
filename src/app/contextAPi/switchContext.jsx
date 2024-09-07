@@ -9,6 +9,7 @@ export const SwitchProvider = ({ children }) => {
   const handleChange = () => {
     setChecked((prevChecked) => !prevChecked);
   };
+  console.log(checked);
 
   return (
     <SwitchContext.Provider value={{ checked, handleChange }}>

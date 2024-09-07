@@ -93,7 +93,7 @@ const HeroSection = () => {
               Hire Me
             </a>
             <a
-              href="/CV/Ijaz_CV.pdf"
+              href="/CV/Qadeer_Resume.pdf"
               download
               style={{ padding: "0.22rem 0.22rem" }} 
               className={`${

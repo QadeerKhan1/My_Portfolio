@@ -30,15 +30,15 @@ const Footer = () => {
       }}`}
     >
       <div className="container p-1 flex justify-between items-center">
-        <span>
+        {/* <span>
           <Image
-            src="/svg/ijazlogo.png"
+            src="/svg"
             alt="hero image"
             className="rounded-[20px]"
             width={40}
             height={40}
           />
-        </span>
+        </span> */}
         <p className={`${darkMode ? "text-[#c3d7fa80]" : "text-[#436aa893]"}`}>All Rights Reserved.</p>
       </div>
     </footer>
